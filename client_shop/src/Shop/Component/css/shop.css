@@ -1,0 +1,17 @@
+.title-result-number {
+    color: red;
+    font-weight: bold;
+}
+
+.banner {
+    border-radius: 25px;
+    background-color: #f4f5f9;
+    color: #07192E;
+    font-weight: bold;
+}
+
+.title-service-list {
+    color: #f4f5f9;
+    background-color: #07192E;
+    border-radius: 10px 10px 0px 0px;
+}

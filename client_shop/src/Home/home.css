@@ -1,0 +1,25 @@
+#button-addon2 {
+    border-color: #2992d0;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.btn {
+    background-color: #2992d0;
+    color: #fff;
+}
+
+.book-now-btn {
+    border-radius: 25px;
+}
+
+.bg-cover {
+    border-radius: 20px;
+}
+
+.img-fluid {
+    border-radius: 25px;
+}
+
+.let-be-friend-input {
+    border-radius: 20px;
+}

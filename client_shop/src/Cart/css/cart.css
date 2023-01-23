@@ -1,0 +1,23 @@
+        .back-btn {
+            background-color: #fff;
+        }
+        
+        .back-btn:hover {
+            color: #fff;
+        }
+        
+        i:hover {
+            color: #fff;
+        }
+        
+        .apply-coupon-btn {
+            border-color: #2992d0;
+        }
+        
+        .proceed-btn {
+            border-radius: 25px;
+        }
+        
+        .bg-cover {
+            border-radius: 25px;
+        }

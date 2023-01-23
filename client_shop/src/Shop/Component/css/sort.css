@@ -1,0 +1,13 @@
+.sort_price {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2992d0;
+    color: #f4f5f9;
+    border-color: #2992d0;
+    font-size: 15px;
+}
+
+.sort_distance {}
+
+.sort_rating {}
