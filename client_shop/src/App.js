@@ -17,51 +17,34 @@ import Shop from './Shop/Shop';
 import Chat from './Share/Chat/Chat';
 
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        BrowserRouter >
-        <
-        Header / >
+    return ( 
+    <div className = "App" >
+        <BrowserRouter >
+        <Header / >
+        <Switch >
+        <Route exact path = '/'
+        component = { Home }/> 
+        <Route path = '/detail/:id'
+        component = { Detail }/> 
+        <Route path = '/cart'
+        component = { Cart }/> 
+        <Route path = '/signin'
+        component = { SignIn }/> 
+        <Route path = '/signup'
+        component = { SignUp }/> 
+        <Route path = '/checkout'
+        component = { Checkout }/> 
+        <Route path = '/history'
+        component = { History }/> 
+        <Route path = '/shop'
+        component = { Shop }/>
 
-        <
-        Switch >
+        </Switch> 
+        </BrowserRouter> 
+        <Chat / >
 
-        <
-        Route exact path = '/'
-        component = { Home }
-        /> <
-        Route path = '/detail/:id'
-        component = { Detail }
-        /> <
-        Route path = '/cart'
-        component = { Cart }
-        /> <
-        Route path = '/signin'
-        component = { SignIn }
-        /> <
-        Route path = '/signup'
-        component = { SignUp }
-        /> <
-        Route path = '/checkout'
-        component = { Checkout }
-        /> <
-        Route path = '/history'
-        component = { History }
-        /> <
-        Route path = '/shop'
-        component = { Shop }
-        />
-
-        <
-        /Switch> <
-        /BrowserRouter> <
-        Chat / >
-
-        <
-        Footer / >
-        <
-        /div>
+        <Footer / >
+        </div>
     );
 }
 
