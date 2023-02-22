@@ -9,7 +9,7 @@ const Modal = ({ setIsOpen }) => {
   const [time2, setTime2] = useState();
 
   return (
-    <div>
+    <div className='modal__container'>
       <div className='darkBG' onClick={() => setIsOpen(false)} />
       <div className='centered'>
         <div className='modal'>
